@@ -54,12 +54,13 @@ function chopDate(day) {
   var str = arr.join("");
   return str;
 }
-/*  function drawDate(){
-    getLocalStorage();
-    var str = dd.toString();
-    str = parseInt(str[str.length -1]);
-    var supArr = ["th", "st", "nd", "rd"]
-    if(str != 1 && str != 2 && str != 3){
+
+function drawDate() {
+  getLocalStorage();
+  var str = dd.toString();
+  str = parseInt(str[str.length - 1]);
+  var supArr = ["th", "st", "nd", "rd"]
+  /*  if(str != 1 && str != 2 && str != 3){
       str = 0;
     }
     var sup = supArr[str];
