@@ -51,13 +51,14 @@ body {
   padding: 15px 0 0 5px;
 }
 
-/*.hour-input {
+.hour-input {
   width: 100%;
   height: 100%;
   display: inline;
   margin: 15px;
 }
-input {
+
+/*input {
   width: 75%;
 }
 .arrow {
