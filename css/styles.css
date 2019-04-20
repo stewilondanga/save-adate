@@ -34,13 +34,14 @@ body {
   border: 10px solid #78909C
 }
 
-/*.div-header {
-   background-color: #ECEFF1;
+.div-header {
+  background-color: #ECEFF1;
   padding: 15px;
-    text-align: center;
-  color:#78909C;
+  text-align: center;
+  color: #78909C;
 }
-.left {
+
+/*.left {
   text-align: left;
 }
 .hour {
