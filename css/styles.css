@@ -67,11 +67,12 @@ input {
   cursor: pointer;
 }
 
-/*.today{
+.today {
   cursor: pointer;
-  display:none;
+  display: none;
 }
-.save{
+
+/*.save{
   float:left;
 }
 .my-button{
