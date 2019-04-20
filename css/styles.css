@@ -82,10 +82,11 @@ input {
   cursor: pointer;
 }
 
-/*.glyphicon{
+.glyphicon {
   border-radius: 50%;
 }
-.my-button:hover{
+
+/*.my-button:hover{
   transition: .3s;
   background-color: #78909C;
   color: white;
