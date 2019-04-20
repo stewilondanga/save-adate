@@ -63,9 +63,9 @@ function drawDate() {
   if (str != 1 && str != 2 && str != 3) {
     str = 0;
   }
-  /*    var sup = supArr[str];
+  var sup = supArr[str];
 
-      $("#month").text(mm);
+  /*    $("#month").text(mm);
       $("#day").text(dd);
       $("#super").text(sup);
       $("#year").text(yyyy);
