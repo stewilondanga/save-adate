@@ -45,9 +45,10 @@ function checkIfToday(val) {
     $(".today").show();
   }
 }
-/*  function chopDate(day){
-    var arr = [];
-    for(var i = 0; i < 4; i++){
+
+function chopDate(day) {
+  var arr = [];
+  /*  for(var i = 0; i < 4; i++){
       arr.push(day[i]);
     }
     var str = arr.join("");
