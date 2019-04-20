@@ -81,12 +81,16 @@ $("#time").html(template)
 $(".hour").click(function(e) {
   textWrite(e);
 });
-/*$(".hour-input").click(function(e){
-  var val = e.target.id[e.target.id.length -1];
-  var result = {target: {id: val}}
+$(".hour-input").click(function(e) {
+  var val = e.target.id[e.target.id.length - 1];
+  var result = {
+    target: {
+      id: val
+    }
+  }
   textWrite(result);
 });
-function textWrite(val){
+/*function textWrite(val){
   var id = val.target.id;
   var text = $(`#hour${id}`).text();
   $(`#hour${id}`).html(`<input id="input${id}" value="${text}">`)
