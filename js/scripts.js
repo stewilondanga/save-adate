@@ -102,9 +102,9 @@ function textWrite(val) {
     $(`#hour${id}`).text(val)
   });
 }
-/*var currentInput = "";
+var currentInput = "";
 
-  $(document).on('keydown', 'input', function(e) {
+/*  $(document).on('keydown', 'input', function(e) {
     var keyCode = e.keyCode || e.which;
     if (keyCode == 9 && currentInput != 24) {
       e.preventDefault();
