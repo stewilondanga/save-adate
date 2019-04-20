@@ -32,8 +32,8 @@ function changeDate(val) {
   }
   dd = today.getDate();
   yyyy = today.getFullYear();
-  /*    mm = months[today.getMonth()];
-      drawDate();
+  mm = months[today.getMonth()];
+  /*    drawDate();
     }
     function checkIfToday(val){
       var checkArr = (today.getDate() + val).toString().split(" ");
