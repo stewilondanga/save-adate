@@ -71,12 +71,12 @@ function drawDate() {
   $("#year").text(yyyy);
 }
 var template = ``;
-/*for(var i = 1; i <= 24; i++){
-  var amPm = (i < 12) ? "AM":"PM";
+for (var i = 1; i <= 24; i++) {
+  var amPm = (i < 12) ? "AM" : "PM";
   var hour = (i < 13) ? i : i - 12;
   template += `<div class="hour" id="${i}"><sub class="left">${hour}:00 ${amPm}</sub><div class="hour-input" id="hour${i}"></div></div>`;
 }
-$("#time").html(template)
+/*$("#time").html(template)
 
 $(".hour").click(function(e){
   textWrite(e);
