@@ -10,8 +10,8 @@ var navigate = (function() {
 $(document).ready(function() {
   drawDate();
 });
-/*var today = new Date();
-var currentDay = today.toString().split(" ");
+var today = new Date();
+/*var currentDay = today.toString().split(" ");
 var dd = today.getDate();
 var yyyy = today.getFullYear();
   var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
