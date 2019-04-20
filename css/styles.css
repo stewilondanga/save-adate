@@ -72,10 +72,11 @@ input {
   display: none;
 }
 
-/*.save{
-  float:left;
+.save {
+  float: left;
 }
-.my-button{
+
+/*.my-button{
   transition: .3s;
   padding: 5px;
   cursor: pointer;
