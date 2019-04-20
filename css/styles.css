@@ -58,10 +58,11 @@ body {
   margin: 15px;
 }
 
-/*input {
+input {
   width: 75%;
 }
-.arrow {
+
+/*.arrow {
   margin: 5px;
   cursor: pointer;
 }
