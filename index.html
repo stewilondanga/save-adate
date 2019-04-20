@@ -21,6 +21,20 @@
         </a>
     </div>
 
+    <div class="main-div">
+      <div class="div-header noselect">
+        <div class="save my-button">Save</div>
+        <span onclick="changeDate(-30)" class="arrow my-button glyphicon glyphicon-triangle-left"></span>
+          <span onclick="changeDate(-7)" class="arrow my-button glyphicon glyphicon-triangle-left"></span>
+        <span onclick="changeDate(-1)" class="arrow my-button glyphicon glyphicon-triangle-left"></span><span id="month"></span> <span id="day"></span><sup id="super"></sup> <span id="year"></span>
+          <span onclick="changeDate(1)" class="arrow my-button glyphicon glyphicon-triangle-right"></span>
+          <span onclick="changeDate(7)" class="arrow my-button glyphicon glyphicon-triangle-right"></span>
+          <span onclick="changeDate(30)" class="arrow my-button glyphicon glyphicon-triangle-right"></span>
+          <div onclick="changeDate(0)" class="today my-button">Today</div>
+      </div>
+      <div id="time"></div>
+    </div>
+
   <section id="contact">
     <div class="overlay">
       <div class="containers">
