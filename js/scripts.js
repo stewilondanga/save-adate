@@ -104,18 +104,22 @@ function textWrite(val) {
 }
 var currentInput = "";
 
-/*  $(document).on('keydown', 'input', function(e) {
-    var keyCode = e.keyCode || e.which;
-    if (keyCode == 9 && currentInput != 24) {
-      e.preventDefault();
-      var num = parseInt(currentInput);
-      num++
-      currentInput = num;
-        var result = {target: {id: currentInput}}
-        textWrite(result);
+$(document).on('keydown', 'input', function(e) {
+  var keyCode = e.keyCode || e.which;
+  if (keyCode == 9 && currentInput != 24) {
+    e.preventDefault();
+    var num = parseInt(currentInput);
+    num++
+    currentInput = num;
+    var result = {
+      target: {
+        id: currentInput
+      }
     }
-  });
-$(".save").click(function(){
+    textWrite(result);
+  }
+});
+/*$(".save").click(function(){
   var arr = getValues();
   var day = chopDate(currentDay);
   localStorage.setItem(day,JSON.stringify(arr));
