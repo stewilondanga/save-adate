@@ -31,8 +31,8 @@ function changeDate(val) {
     getLocalStorage();
   }
   dd = today.getDate();
-  /*    yyyy = today.getFullYear();
-      mm = months[today.getMonth()];
+  yyyy = today.getFullYear();
+  /*    mm = months[today.getMonth()];
       drawDate();
     }
     function checkIfToday(val){
