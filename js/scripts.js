@@ -78,10 +78,10 @@ for (var i = 1; i <= 24; i++) {
 }
 $("#time").html(template)
 
-/*$(".hour").click(function(e){
+$(".hour").click(function(e) {
   textWrite(e);
 });
-$(".hour-input").click(function(e){
+/*$(".hour-input").click(function(e){
   var val = e.target.id[e.target.id.length -1];
   var result = {target: {id: val}}
   textWrite(result);
