@@ -1,3 +1,7 @@
+body {
+  background-color: #78909C;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -41,9 +45,6 @@
   padding: 15px;
     text-align: center;
   color:#78909C;
-}
-body{
-  background-color: #78909C;
 }
 .left {
   text-align: left;
