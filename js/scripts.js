@@ -124,15 +124,16 @@ $(".save").click(function() {
   var day = chopDate(currentDay);
   localStorage.setItem(day, JSON.stringify(arr));
 });
-/*function getValues(){
+
+function getValues() {
   var hourArr = [];
-  for(var i = 1; i < 25; i++){
+  for (var i = 1; i < 25; i++) {
     hourArr.push($("#hour" + i).text());
   }
-  console.log("Get values",hourArr);
+  console.log("Get values", hourArr);
   return hourArr;
 }
-function getLocalStorage(){
+/*function getLocalStorage(){
   var hourArr = [];
   hourArr = JSON.parse(localStorage.getItem(chopDate(currentDay)));
   console.log(hourArr);
