@@ -65,8 +65,8 @@ function drawDate() {
   }
   var sup = supArr[str];
 
-  /*    $("#month").text(mm);
-      $("#day").text(dd);
+  $("#month").text(mm);
+  /*    $("#day").text(dd);
       $("#super").text(sup);
       $("#year").text(yyyy);
     }
