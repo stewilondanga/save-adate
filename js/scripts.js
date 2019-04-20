@@ -7,10 +7,10 @@ var navigate = (function() {
   });
 })();
 
-/*$(document).ready(function(){
+$(document).ready(function() {
   drawDate();
 });
-var today = new Date();
+/*var today = new Date();
 var currentDay = today.toString().split(" ");
 var dd = today.getDate();
 var yyyy = today.getFullYear();
