@@ -41,10 +41,11 @@ body {
   color: #78909C;
 }
 
-/*.left {
+.left {
   text-align: left;
 }
-.hour {
+
+/*.hour {
   color: #78909C;
   border-bottom: #ECEFF1 dotted 1px;
   padding: 15px 0 0 5px;
