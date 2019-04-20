@@ -41,11 +41,11 @@ function checkIfToday(val) {
   var todayArr = today.getDate().toString().split(" ");
   var todayStr = chopDate(todayArr);
   var checkStr = chopDate(checkArr);
-  /*  if(checkStr != todayStr) {
-      $(".today").show();
-    }
+  if (checkStr != todayStr) {
+    $(".today").show();
   }
-  function chopDate(day){
+}
+/*  function chopDate(day){
     var arr = [];
     for(var i = 0; i < 4; i++){
       arr.push(day[i]);
