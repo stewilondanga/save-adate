@@ -24,14 +24,13 @@ function changeDate(val) {
     currentDay = today.toString().split(" ");
     $(".today").hide();
     getLocalStorage();
+  } else {
+    today.setDate(today.getDate() + val);
+    currentDay = today.toString().split(" ");
+    checkIfToday(val);
+    getLocalStorage();
   }
-  /*    else {
-        today.setDate(today.getDate() + val);
-        currentDay = today.toString().split(" ");
-        checkIfToday(val);
-        getLocalStorage();
-      }
-      dd = today.getDate();
+  /*    dd = today.getDate();
       yyyy = today.getFullYear();
       mm = months[today.getMonth()];
       drawDate();
