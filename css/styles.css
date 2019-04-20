@@ -62,11 +62,12 @@ input {
   width: 75%;
 }
 
-/*.arrow {
+.arrow {
   margin: 5px;
   cursor: pointer;
 }
-.today{
+
+/*.today{
   cursor: pointer;
   display:none;
 }
