@@ -67,8 +67,8 @@ function drawDate() {
 
   $("#month").text(mm);
   $("#day").text(dd);
-  /*    $("#super").text(sup);
-      $("#year").text(yyyy);
+  $("#super").text(sup);
+  /*    $("#year").text(yyyy);
     }
     var template = ``;
     for(var i = 1; i <= 24; i++){
