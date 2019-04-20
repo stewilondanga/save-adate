@@ -133,25 +133,24 @@ function getValues() {
   console.log("Get values", hourArr);
   return hourArr;
 }
-/*function getLocalStorage(){
+
+function getLocalStorage() {
   var hourArr = [];
   hourArr = JSON.parse(localStorage.getItem(chopDate(currentDay)));
   console.log(hourArr);
-  if(hourArr != null){
+  if (hourArr != null) {
     //console.log(chopDate(currentDay)+":",hourArr);
-    for(var i = 1; i < 25; i++){
-      if(hourArr[i] != null && hourArr[i] != undefined){
+    for (var i = 1; i < 25; i++) {
+      if (hourArr[i] != null && hourArr[i] != undefined) {
         //console.log(hourArr[i]);
-        $("#hour" + i).text( hourArr[i]);
-      }
-      else{
+        $("#hour" + i).text(hourArr[i]);
+      } else {
         $("#hour" + i).text("");
       }
     }
-  }
-  else {
+  } else {
     //console.log(chopDate(currentDay)+":",hourArr);
-    for(var i = 1; i < 25; i++){
+    for (var i = 1; i < 25; i++) {
       $("#hour" + i).text("");
     }
   }
