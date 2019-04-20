@@ -90,18 +90,19 @@ $(".hour-input").click(function(e) {
   }
   textWrite(result);
 });
-/*function textWrite(val){
+
+function textWrite(val) {
   var id = val.target.id;
   var text = $(`#hour${id}`).text();
   $(`#hour${id}`).html(`<input id="input${id}" value="${text}">`)
   $(`#input${id}`).focus();
   currentInput = id;
-  $(`#hour${id}`).focusout(function(){
+  $(`#hour${id}`).focusout(function() {
     var val = $(`#input${id}`).val();
     $(`#hour${id}`).text(val)
   });
 }
-var currentInput = "";
+/*var currentInput = "";
 
   $(document).on('keydown', 'input', function(e) {
     var keyCode = e.keyCode || e.which;
