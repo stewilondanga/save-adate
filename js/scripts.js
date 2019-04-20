@@ -35,12 +35,13 @@ function changeDate(val) {
   mm = months[today.getMonth()];
   drawDate();
 }
-/*  function checkIfToday(val){
-    var checkArr = (today.getDate() + val).toString().split(" ");
-    var todayArr = today.getDate().toString().split(" ");
-    var todayStr = chopDate(todayArr);
-    var checkStr = chopDate(checkArr);
-    if(checkStr != todayStr) {
+
+function checkIfToday(val) {
+  var checkArr = (today.getDate() + val).toString().split(" ");
+  var todayArr = today.getDate().toString().split(" ");
+  var todayStr = chopDate(todayArr);
+  var checkStr = chopDate(checkArr);
+  /*  if(checkStr != todayStr) {
       $(".today").show();
     }
   }
