@@ -119,12 +119,12 @@ $(document).on('keydown', 'input', function(e) {
     textWrite(result);
   }
 });
-/*$(".save").click(function(){
+$(".save").click(function() {
   var arr = getValues();
   var day = chopDate(currentDay);
-  localStorage.setItem(day,JSON.stringify(arr));
+  localStorage.setItem(day, JSON.stringify(arr));
 });
-function getValues(){
+/*function getValues(){
   var hourArr = [];
   for(var i = 1; i < 25; i++){
     hourArr.push($("#hour" + i).text());
